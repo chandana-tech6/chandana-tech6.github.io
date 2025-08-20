@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandana Kandi | Portfolio</title>
+  <style>
+    /* Reset & Basics */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #2b4275, #2e8b57);
+      color: white; text-align: center; padding: 50px 20px;
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin-top: 10px; }
+    nav { margin-top: 20px; }
+    nav a {
+      margin: 0 15px; text-decoration: none; color: white;
+      font-weight: bold; transition: 0.3s;
+    }
+    nav a:hover { color: #ffe600; }
+
+    /* Section */
+    section { padding: 60px 20px; max-width: 900px; margin: auto; }
+    h2 { color: #2e8b57; margin-bottom: 20px; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
+
+    /* Skills & Projects Grid */
+    .grid { display: flex; gap: 20px; flex-wrap: wrap; }
+    .card {
+      background: white; padding: 20px; border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 250px; transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-5px); }
+
+    /* Contact */
+    #contact p { margin: 10px 0; }
+    #contact a { color: #4CAF50; text-decoration: none; font-weight: bold; }
+    #contact a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      background: #333; color: white; text-align: center;
+      padding: 20px; margin-top: 40px;
+    }
+    footer a { color: #4CAF50; margin: 0 10px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Chandana Kandi</h1>
+    <p>Aspiring Frontend Developer | B.Tech Graduate</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m Chandana, a passionate B.Tech (ECE) student aspiring to become a frontend developer.  
+      I love building clean, responsive, and user-friendly web applications, and I’m eager to learn new technologies.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Python</div>
+      <div class="card">C Programming</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>This website! A responsive portfolio built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Vehicle-to-Vehicle Communication (Academic)</h3>
+        <p>This project presents a Vehicle-to-Vehicle (V2V) communication system utilizing AI and RF
+technology to enhance road safety by providing real-time vehicle recognition, alerts, and distance
+management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:chandanakandi6@gmail.com">chandanakandi6@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/chandana-tech6">github.com/chandana-tech6</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/chandana-kandi-b68972314">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Chandana Kandi | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
